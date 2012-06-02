@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="952,416" id="br.flf.curso.sugestaovoto" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D313020696E7465727072657461646F72">
+  <children xsi:type="editmodel:ClassEditModel" name="ValidacaoUtil" location="195,187" size="152,103" id="br.flf.curso.sugestaovoto/ValidacaoUtil" runTimeClassModel="validaQtdeCarateres(Ljava.lang.String;II),ehVazio(Ljava.lang.String;),validaEmail(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,54">
+      <children xsi:type="editmodel:MethodEditModel" name="ehVazio" id="br.flf.curso.sugestaovoto/ValidacaoUtil#ehVazio(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="validaEmail" id="br.flf.curso.sugestaovoto/ValidacaoUtil#validaEmail(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="validaQtdeCarateres" id="br.flf.curso.sugestaovoto/ValidacaoUtil#validaQtdeCarateres(Ljava.lang.String;II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0" name="Curso" location="555,25" size="124,265" id="br.flf.curso.sugestaovoto/Curso" runTimeClassModel="getEmail(),getDescricao(),email,setDescricao(Ljava.lang.String;),setEmail(Ljava.lang.String;),setQtdeVotos(Ljava.lang.Long;),getQtdeVotos(),getNome(),setNome(Ljava.lang.String;),nome,descricao,qtdeVotos">
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="descricao" id="br.flf.curso.sugestaovoto/Curso#descricao"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="email" id="br.flf.curso.sugestaovoto/Curso#email"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nome" id="br.flf.curso.sugestaovoto/Curso#nome"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="qtdeVotos" id="br.flf.curso.sugestaovoto/Curso#qtdeVotos"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,144">
+      <children xsi:type="editmodel:MethodEditModel" name="getDescricao" id="br.flf.curso.sugestaovoto/Curso#getDescricao()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEmail" id="br.flf.curso.sugestaovoto/Curso#getEmail()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNome" id="br.flf.curso.sugestaovoto/Curso#getNome()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getQtdeVotos" id="br.flf.curso.sugestaovoto/Curso#getQtdeVotos()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDescricao" id="br.flf.curso.sugestaovoto/Curso#setDescricao(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setEmail" id="br.flf.curso.sugestaovoto/Curso#setEmail(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNome" id="br.flf.curso.sugestaovoto/Curso#setNome(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setQtdeVotos" id="br.flf.curso.sugestaovoto/Curso#setQtdeVotos(Ljava.lang.Long;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CursoDAO" location="190,25" size="226,151" id="br.flf.curso.sugestaovoto/CursoDAO" runTimeClassModel="listarTodosCursosComQtdeVotos(),incluirCurso(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),existeVoto(Ljava.lang.String;Ljava.lang.String;),carregarCurso(Ljava.lang.String;),incluirVoto(Ljava.lang.String;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="189,90">
+      <children xsi:type="editmodel:MethodEditModel" name="carregarCurso" id="br.flf.curso.sugestaovoto/CursoDAO#carregarCurso(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="existeVoto" id="br.flf.curso.sugestaovoto/CursoDAO#existeVoto(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incluirCurso" id="br.flf.curso.sugestaovoto/CursoDAO#incluirCurso(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incluirVoto" id="br.flf.curso.sugestaovoto/CursoDAO#incluirVoto(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="listarTodosCursosComQtdeVotos" id="br.flf.curso.sugestaovoto/CursoDAO#listarTodosCursosComQtdeVotos()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="br.flf.curso.sugestaovoto/CursoDAO-Standard::Call->br.flf.curso.sugestaovoto/Curso*br.flf.curso.sugestaovoto/CursoDAO-Standard::Instantiate->br.flf.curso.sugestaovoto/Curso*br.flf.curso.sugestaovoto/CursoDAO-Soyatec::Import->br.flf.curso.sugestaovoto/Curso" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="226,75" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,75"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CursoServlet" location="10,25" size="149,196" id="br.flf.curso.sugestaovoto/CursoServlet" runTimeClassModel="mostrarFormVotar,mostrarFormSugerir,redirectListar,votar,sugerir,service,listar">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="126,126">
+      <children xsi:type="editmodel:MethodEditModel" name="listar" id="br.flf.curso.sugestaovoto/CursoServlet#listar"/>
+      <children xsi:type="editmodel:MethodEditModel" name="redirectListar" id="br.flf.curso.sugestaovoto/CursoServlet#redirectListar"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sugerir" id="br.flf.curso.sugestaovoto/CursoServlet#sugerir"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mostrarFormVotar" id="br.flf.curso.sugestaovoto/CursoServlet#mostrarFormVotar"/>
+      <children xsi:type="editmodel:MethodEditModel" name="service" id="br.flf.curso.sugestaovoto/CursoServlet#service"/>
+      <children xsi:type="editmodel:MethodEditModel" name="votar" id="br.flf.curso.sugestaovoto/CursoServlet#votar"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mostrarFormSugerir" id="br.flf.curso.sugestaovoto/CursoServlet#mostrarFormSugerir"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=4;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

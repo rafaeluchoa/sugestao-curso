@@ -1,0 +1,1 @@
+Um simples projeto mostrando alguns conceitos de java para web (JSP e Servlet).
